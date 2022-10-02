@@ -81,7 +81,7 @@ Pour qu'un élément puisse être déplacé, il faut lui ajouter l'attribut {{ht
 <script>
 function dragstart_handler(ev) {
  // On ajoute l'identifiant de l'élément cible à l'objet de transfert
- ev.dataTransfer.setData("text/plain", ev.target.innerText);
+ ev.dataTransfer.setData("text/plain", ev.target.id);
 }
 </script>
 
